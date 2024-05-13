@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boy Scout Troop 123</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eee;
+        }
+
+        header {
+            background-color: #004c97;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+            nav a {
+                color: white;
+                padding: 14px 20px;
+                text-decoration: none;
+            }
+
+                nav a:hover {
+                    background-color: #555;
+                }
+
+        main {
+            padding: 20px;
+            background-color: white;
+            min-height: 600px; /* Adjust as needed */
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .gallery img {
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            border: 3px solid #ccc;
+        }
+
+            .gallery img:hover {
+                border-color: #333;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Troop 777</h1>
+    </header>
+    <nav>
+        <a href=index.html>Home</a>
+        <a href=About.html>About Us</a>
+        <a href=events.html>Events</a>
+    </nav>
+    <main>
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>Welcome to Boy Scout Troop 123 based in Hudson Ohio. Our troop is dedicated to building character, learning outdoor skills, and community service.</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Email: info@troop123.org</p>
+            <p>Phone: (123) 456-7890</p>
+            <img src="https://mail.google.com/mail/u/0?ui=2&ik=163c11c9a1&attid=0.3&permmsgid=msg-a:r-5131827811236712700&th=18f6f6bdd8b5c57b&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-GmcLT9PLRSpUClSYLSqYPesQMwuQ6j8YEI36l6aWXhnMcHzrK3cKYRiVWOgYwj6E1Cz19JmBT1KQOHNmAXIo4si7UIIvtr7SL5cZSr2QXBcf_XOzLR4jhn0I&disp=emb&realattid=18f6f6bd376320a80274" alt="Holiday Valley campout" width="500" height="400">
+            <img src="https://mail.google.com/mail/u/0?ui=2&ik=163c11c9a1&attid=0.1&permmsgid=msg-a:r-5131827811236712700&th=18f6f6bdd8b5c57b&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_pWMubYN4RLSUnFC0Ik2eQNQYSAAkwqpyASgzN73MNPhvhfChkDZSv6IdEUml2CU0ugzgs0YRsokey-90nh3nm5yxWPwpvvTNG-oxi8VdcrgKRCWTlgjakpms&disp=emb&realattid=18f6f6ba80a5edcbc2a2" alt="sum campsite idk" width="500" height="400">
+            <img src="https://mail.google.com/mail/u/0?ui=2&ik=163c11c9a1&attid=0.2&permmsgid=msg-a:r-5131827811236712700&th=18f6f6bdd8b5c57b&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ91MjKNZaLX5oyFZGezsIduXNbfVeJsTbGUeei1725XNgTqDQ2N8o0Jl8Aji7LhnBbEvSJrfA2KKzo1M434J6oBpAJ9_dlxtVTnNDUnYGWgig2VvNPDvhlFGus&disp=emb&realattid=18f6f6bb408fa96a8293" alt="skibidi" width="500" height="400">
+            <img src="data:image/jpeg;base64,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N2D6op8GkoFMrb7paZvCdB78ipKOcDjUa7+gfMf90+p4VnQc1Glya4BpaI61mmmc7zHZpFOUwf8AcP3RRYdooFLVNiijFFDaANoR+L8rfpQdoR+L8rfpVFRWfKsvQej/AEitYkIeQhi2foOf+hVwOmNl/VP9uX9teTUUt2u3sMXTWwHOY/25f208OnOz/wCsf7U37a8YorGjb2sdO9nf1z/am/bRL072eRwmP9qb9teKUU0besXHTCyblKf7cv7ay+3Ns28jhkckacHqsOPxFY+it43x9ja9+UI/F+Vv0pflCPxflb9KoaKeVRdT3yFcBuOR2NXY2hH4vyt+lUVFNrtfjaMXi/K36UvylF4vyt+lZ+im0aEbSi8X5W/Smzfx686uGnH0W5+lUVFNrtf/ACjH4vyt+lL8pReL8rfpWfopum2h+U4vF+Vv0orPUU3TYooorKCiiigKKKKAooooCiiigKKKKAooooCiiigKKKKAooooCiiigKKKKAooooCiiigKKKKAooooCiiigKKKKAooooCiiigKKKKAooooCiiigKKKKAooooCiiigKKKKAooooCiiigKKKKAooooCiiigKKKKD/9k=" alt="skibidi" width="300" height="400">
+
+        </section>
+    </main>
+</body>
+</html>
